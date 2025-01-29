@@ -1,0 +1,64 @@
+# Event parameters ------------------------------------------------------------
+edition: 2025
+title: Workshop on Adaptable Cloud Architectures
+short: WACA 2025
+header:
+  city: "Lille, France"
+  dates: "June 20<sup>th</sup>, 2025"
+email: saverio.giallorenzo@gmail.com # contact email
+url: "https://thesave.github.io/waca-website/"
+timezone: Europe/Rome
+# twitter_feed: c_microservices 
+# legal_notice_url: /legal-notice
+community_badge:
+  asset: "1-black.png"
+#  asset: "2-white.png"
+  token: "waca2025"
+
+# Site navigation -------------------------------------------------------------
+navigation_header:
+  Home:              /
+  "Call for Papers": /cfp/
+# Keynotes:          /keynotes/
+  Attending:        /attending/
+  Program:           /program/
+# Registration:      /registration/
+  Committees:        /committees/
+# Contact:           /contact/  
+
+# Exclude from build -----------------------------------------------------------
+exclude:
+- README.md
+- LICENSE
+- Gemfile
+- Gemfile.lock
+- Makefile
+- alembic-jekyll-theme.gemspec
+- include_md.html
+
+#------------------------------------------------------------------------------
+logo: "/assets/images/logo.png"
+avatarurl: "/assets/images/favicon.ico"
+
+encoding: utf-8
+
+plugins:
+- jekyll-sitemap
+- jekyll-mentions
+- jekyll-paginate
+- jekyll-seo-tag
+- jekyll-redirect-from
+- jekyll-email-protect
+
+sass:
+  style: compressed # Style compression
+permalink: pretty  # Permalink style (/YYYY/MM/DD/page-name/)
+excerpt_separator: <!-- more --> # Marks end of excerpt in posts
+defaults:
+  - scope:
+      path: ""
+      type: pages
+    values:
+      layout: page
+      feature_image: "image0.jpg"
+      image_source: "Martin Sarikov"

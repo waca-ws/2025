@@ -1,0 +1,9 @@
+- name: Alma Mater Studiorum - Università di Bologna
+  type: Sponsor
+  link: https://disi.unibo.it/en
+  logo: /assets/images/supporters/unibo.png
+
+- name: SmartCloud ANR Project
+  type: Sponsor
+  link: https://project.inria.fr/smartcloud/
+  logo: /assets/images/supporters/smartcloud.png

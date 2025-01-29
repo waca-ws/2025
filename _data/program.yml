@@ -1,0 +1,97 @@
+---
+- day: June 12<sup>th</sup>
+  color: "#aeb4ff"
+  theme: "Single session from 16:00 to 17:30 on Zoom"
+  events:
+    
+    - title: Opening
+      from: "16:00"
+      to: "16:05"
+      authors:
+        - name: Filipe F. Correia (UPT), Kati Kuusinen (DTU), Marco Peressotti	(SDU), and Saverio Giallorenzo (SDU)
+          title: Chairs
+      description: The chairs welcome all attendees at AMP 2020 and provide information on the organisation of the event
+
+    - title: Improving Agility by Managing Shared Libraries in Microservices
+      link: papers/paper1
+      slides: presentations/paper1.pdf
+      from: "16:05"
+      to: "16:25"
+      authors:
+        - name: Saulo S. de Toledo, Antonio Martini, and Dag I. K. Sjøberg
+          title: Authors
+      description: |
+        Microservices is a way of doing agile architecture that is increasingly
+        gaining popularity. However, if the microservices development is not properly
+        managed, the teams development velocity may be affected, reducing agility and
+        increasing architectural technical debt. This paper investigates how to manage
+        the use of shared libraries in microservices to improve agility during
+        development. We interviewed practitioners from four large international
+        companies involved in microservices projects to identify problems when using
+        shared libraries. We found that the participating companies had issues with
+        shared libraries as follows: coupling among teams, delays on fixes due to
+        overhead on libraries development teams, and need to maintain many versions of
+        the libraries. Our results highlight that the use of shared libraries may hinder
+        agility on microservices. Thus, their use should be restricted to situations
+        where shared libraries cannot be replaced by a microservice and the costs of
+        replicating the code on each service is very high.
+    
+    - title: Certification as a Service
+      link: papers/paper2
+      slides: presentations/paper2.pdf
+      from: "16:25"
+      to: "16:45"
+      authors:
+        - name: Sebastian Copei, Manuel Wickert, and Albert Zündorf
+          title: Authors
+      description: | 
+        The development of industry 4.0 and smart energy ITComponents relies on highly
+        standardized communication protocols to reach vendor-independent
+        interoperability. The interoperability is required to build complex systems
+        without vendor lock-in and stay in operation for many years without frequent
+        hardware changes. However, the classical standardization and certification
+        processes for such communication protocols are typically incompatible with
+        modern agile software development processes. This increases the complexity of
+        building microservice-based systems or cloud-native solutions in these domains.
+        To cope with that, we propose an agile method for the standardization of
+        communication protocols. We show that this approach will be compatible with
+        agile development processes and present a cloud-native certification service
+        that works within a continuous integration and deployment pipeline,
+        seamlessly. This will support the efficiency of building microservice and
+        cloud-native application for the industry 4.0 and smart energy domain.
+
+    - title: Multicloud API Binding Generation from Documentation
+      link: papers/paper4
+      slides: presentations/paper4.html
+      from: "16:45"
+      to: "17:00"
+      authors:
+        - name: Michał J. Gajda, Victor Vitali Barrozzi, and Gabriel Araujo
+          title: Authors
+      description: |
+        We present industry experience of implementing retargetable cloud API binding
+        generator. The generator scrapes the documentation from the HTML pages, and
+        generates typed Haskell descriptions, which makes it easier to maintain and
+        easily scalable to both new cloud APIs and new languages. <strong>(Extended Abstract)</strong>
+
+    - title: Teaching Complex Systems based on Microservices
+      link: papers/paper3
+      slides: presentations/paper3.pdf
+      from: "17:00"
+      to: "17:15"
+      authors:
+        - name: Renato Cordeiro, Thatiane Rosa, Alfredo Goldman, and Eduardo Guerra
+          title: Authors
+      description: | 
+        Developing complex systems using microservices is a current challenge. In this
+        paper we present our experience with teaching this subject for more than 80
+        undergraduate students at University of São Paulo, fostering team work and
+        simulating the industry environment. <strong>(Extended Abstract)</strong>
+
+    - title: Closing
+      from: "17:15"
+      to: "17:30"
+      authors:
+        - name: Filipe F. Correia (UPT), Kati Kuusinen (DTU), Marco Peressotti	(SDU), and Saverio Giallorenzo (SDU)
+          title: Chairs
+      description: The chairs close the AMP session and provide information on the continuation of the event online

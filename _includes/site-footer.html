@@ -1,0 +1,34 @@
+<script>
+var checkFooter = function() {
+  if ( window.innerHeight > $( "footer" ).position().top + $( "footer" ).height() ) {
+    $( "footer" ).css( 
+      "margin-top", 
+      window.innerHeight - $( "footer" ).position().top - $( "footer" ).height() );
+  } else {
+    $( "footer" ).css( "margin-top", "3em" );
+  }
+}
+$( document ).ready( checkFooter );
+$( window ).resize( checkFooter );
+$( ".nav " ).click( checkFooter );
+</script>
+
+<footer class="footer">
+
+  <div class="mycontainer">
+    {% include nav-footer.html %}
+    
+    <div class="col-xs-8">
+        <small class="small">&copy; {{ site.title }}</small>
+    </div>
+    
+    <div class="col-xs-4">
+    <small class="small">
+      <a href="/committees"><i class="glyphicon glyphicon-envelope"></i></a>
+      For any inquiry on the workshop, its organisation, and submissions, please contact <a href="{{ '/committees' | relative_url }}">one of the chairs</a>.</small>
+    </div>
+
+  </div>
+
+
+</footer>

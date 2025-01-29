@@ -1,0 +1,46 @@
+{% assign feature_text = page.feature_text %}
+{% assign feature_image = page.feature_image %}
+{% assign image_source = page.image_source %}
+{% if page.collectionpage %}
+  {% assign collectiondata = site.collections | where: "label", page.collectionpage | first %}
+  {% assign feature_text = collectiondata.feature_text %}
+  {% assign feature_image = collectiondata.feature_image %}
+  {% assign image_source = collectiondata.image_source %}
+{% endif %}
+
+<div class="container-fluid">
+  <div class="row">
+  <div class="col-xs-9">
+  <div class="text-left" style="display: inline-block">
+    <a class="vertical-align" style="color:inherit; text-decoration: none !important;" href="{{ '/' | relative_url }}">
+      <div class="col-md-1 col-sm-2 hidden-xs">
+          <img class="img-responsive" src="{{ site.logo | relative_url }}" alt="">
+      </div>
+      <div class="col-xs-12">
+          <div style="display: inline-block;"><h2 style="margin-bottom:0px">{{ site.title }}</h2>
+          <p>{{ site.header.city }} - {{ site.header.dates }}</p></div>
+      </div>
+    </a>
+    </div>
+  </div>
+  {% capture badge %}
+  <a style="color:inherit; text-decoration:none !important;" href="https://microservices.community/e/{{ site.community_badge.token }}/">
+    <img class="img-responsive" style="max-width: 12vw; transform: rotate(25deg); position: absolute; left: 83vw; top: 1vh;" src="https://microservices.community/assets/images/badges/{{ site.community_badge.asset }}" alt="">
+  </a>
+  {% endcapture %}
+  <!-- <div class="col-xs-1 col-sm-1 col-md-1"> -->
+    <div class="pull-right">{{ badge }}</div>
+  <!-- </div> -->
+  </div>
+</div>
+</div>
+{% if feature_text or feature_image %}
+  <div class="feature"{% if feature_image %} style="{%- if feature_image contains 'http' -%}background-image: url({{ feature_image }});{%- else -%}background-image: url({{ '/assets/images/' | append: feature_image | relative_url }});{%- endif -%} z-index: -1; position:relative;"{% endif %}>
+      {% if image_source %}
+	  <div style="position: absolute; bottom: 8px; left: 16px; color:white;">Source: {{ image_source }}</div>
+	  {% endif %}
+      <div class="mycontainer  typeset">
+        {{ feature_text | markdownify }}
+      </div>
+  </div>
+{% endif %}

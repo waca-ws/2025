@@ -1,0 +1,21 @@
+.col-align {
+  float: none;
+  display: inline-block;
+  
+  &--top {
+    vertical-align: top;
+  }
+  &--center {
+    vertical-align: middle;
+  }
+  &--bottom {
+    vertical-align: bottom;
+  }
+}
+.v-center {
+  position: relative;
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+}

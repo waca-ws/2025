@@ -1,0 +1,32 @@
+---
+layout: default
+---
+
+{% include site-header.html %}
+
+<main class="container">
+  <div class="row">
+    <div class="col-sm-12">
+        <h1>{{ page.title }}</h1>
+        {{ content }}
+        <hr>
+        <h3>Versions of the article</h3>
+        <h4>Latests</h4>
+        {% capture version %}{{ page.previous_links.size }}{% endcapture %}
+        <a href="{{ site.url }}/{{ page.current_link }}">
+          <img style="max-height:2em;" src="{{ site.url }}/assets/images/pdf.png" alt=""> 
+          Link to the article (Version {% if page.previous_links %}{{version}}{% else %}0{% endif %})
+        </a>
+        <h4>Previous versions</h4>
+        <div style="small" markdown="0">
+        {% for link in page.previous_links %}
+        {% capture version %}{{ page.previous_links.size | minus: forloop.index }}{% endcapture %}
+        <a style="margin-right:1em" href="{{ site.url }}/{{ link }}">
+          <img style="max-height:1.5em; margin-top:-.2em; margin-right:.1em" src="{{ site.url }}/assets/images/pdf.png" alt="">Version {{ version }}
+        </a>
+        {% endfor %}
+    </div>
+  </div>
+</main>
+
+{% include site-footer.html %}

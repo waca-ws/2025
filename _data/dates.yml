@@ -1,0 +1,40 @@
+- summary: Submission deadline
+  id: submission_deadline
+  expired: false
+  entries: 
+    - date: 2025-04-28
+      zone:
+        tzid: Etc/GMT-12
+        label: AoE (UTC-12)
+    # - date: 2020-03-17
+    #   zone:
+    #     tzid: Etc/GMT-12
+    #     label: AoE (UTC-12)
+- summary: Author Notification
+  id: notification
+  expired: false
+  entries: 
+    - date: 2025-05-16
+      zone:
+        tzid: Etc/GMT-12
+        label: AoE (UTC-12)
+    # - date: 2020-04-17
+    #   zone:
+    #     tzid: Etc/GMT-12
+    #     label: AoE (UTC-12)
+# - summary: Camera ready 
+#   id: camera_ready
+#   expired: false
+#   entries:
+#     - date: 2020-07-07
+#       zone:
+#         tzid: Etc/GMT-12
+#         label: AoE (UTC-12)
+- summary: Workshop
+  id: workshop
+  expired: false
+  entries:
+    - date: 2025-06-20
+      zone:
+        tzid: Europe/Paris
+        label: CET (UTC+1)

@@ -1,0 +1,241 @@
+---
+- authors:
+    - Frank Pientka
+  title: Best-Practicies for serverless architectures  
+  link:
+
+- authors: 
+    - Markus Weyerhaeuser
+  title: From idea to market — an extremly challenging journey
+  link:
+
+- authors:
+    - Maurizio Gabbrielli
+    - Ivan Lanese
+    - Stefano Pio Zingaro
+  title: Microservice-Oriented Computing for the Internet of Things
+  link: ../papers/Microservices_2019_paper_3.pdf
+  slides: day2/applications2/Zingaro.pdf
+  abstract: We present a language-based approach tackling the problem of IoT integration. The approach is based on the use of the microservice-oriented programming language Jolie, that we extended to support IoT protocols such as coap and mqtt.
+
+- authors:
+    - Davide Taibi
+    - Valentina Lenarduzzi
+  title: Microservices, Continuous Architecture, and Technical Debt
+  link:
+
+- authors: 
+    - Adam Kuffel
+  title: "The Elixir programming language: Reliable microservices made easy"
+  link: ../papers/Microservices_2019_paper_5.pdf
+  abstract: The talk will explain and demonstrate Elixir concepts using power-point slides and live coding demos. Depending on the available time, some topics might be done in a larger extent than others. Topics covering the distribution and communication of nodes will have priority, as they show the suitability of Elixir for microservices. Due to the easily understandable syntax of Elixir, it should be possible to follow the code examples without knowing the language in detail. 
+
+- authors:
+    - Claudio Guidi
+    - Balint Maschio
+  title: A Jolie based platform for speeding-up the digitalization of system integration processes
+  link: ../papers/Microservices_2019_paper_6.pdf
+  slides: day3/deployment_automation/Guidi.pdf
+  abstract: In this paper we intend to show how microservices architectures approached from a linguistic point of view can dramatically reduce costs in the development and maintenance of system integration solutions. We will provide support to our thesis by showing a real and concrete scenario in a production environment where we pervasively used the programming language Jolie for implementing system integration solution. Moreover, we will show some basic features provided by a Jolie based platform called Jung which can further accelerate the development and the maintenance of the discussed solutions. 
+
+- authors:
+    - Jacopo Mauro
+    - Iacopo Talevi
+    - Gianluigi Zavattaro
+  title: "Beyond auto-scaling: application-aware optimal elasticity"
+  link: ../papers/Microservices_2019_paper_7.pdf
+  slides: day3/deployment_automation/Talevi.pdf
+  abstract: Microservices recently gained popularity as an architectural style that, inspired by service-oriented computing, structures software applications as compositions of fine-grained and loosely-coupled services. This approach is intended to increase the modularity and scalability of applications. For this reason, modern software engineering practices, like continuous delivery/deployment and autoscaling have microservices at their base. In this extended abstract we discuss limitations of the autoscaling technique, which is based on the addition/removal of new microservice replicas depending on some specific local metrics. As an alternative, we propose a scaling approach that works at the global level, by adding replicas of several microservices at the same time. In this way we support the computation of globally optimal scaling plans in which instances of different microservices could be deployed on the same node.
+
+- authors:
+    - Andreas Hausotter
+    - Arne Koschel
+    - Moritz Lange
+  title: Microservices in Higher Education - Migrating a Legacy Insurance Core Application
+  link: ../papers/Microservices_2019_paper_8.pdf
+  slides: day2/applications1/Lange.pdf
+  abstract: The bachelor's program in Applied Computer Science of the Univ. of Applied Sciences and Arts, Hannover, comprises a practical project of two semesters, where students have to apply the competencies and project management skills acquired in previous courses. The project "Potential and Challenges of Microservices in the Insurance Industry" was carried out with two partner companies. During the winter semester 2017 the basics of microservices have been worked out, technologies were selected and applied to a demo scenario. Results have been presented to and discussed with the partners. The following semester focused on the migration of a monolithic mainframe-based core application, namely the "Partner Management System (PMS)", whereby only functional requirements were specifed by the companies. The students task was to design the functional and technical concept and the implementation of a prototype based on the selected technology stack. The aim was to prove the suitability of the microservices approach for the insurance industry. In addition, known benefts of the microservices architecture should be highlighted and challenges and limitations addressed.
+
+- authors:
+    - Lukas Reinhardt
+    - Marcus Hilbrich
+  title: A Class Concept for Microservices to Manage Dynamic Complexity and Code Reuse
+  link: ../papers/Microservices_2019_paper_9.pdf
+  abstract: To manage the complexity of software projects is an ongoing and rising challenge for decades. Complex software is hard to realize, hard to understand, hard to verify, hard to maintain and leads to failing projects [8]. To manage the rising complexity, numerous different strategies are developed. Using microservices is such a strategy. The overall software is devised vertically into services. Idealistically, the services are independent and can be developed independently of each other. Based on our observation, the remaining communication of services is still a challenge and focusing on service development, the complexity of the communication (dynamic complexity) is not managed well. In addition, code sharing [2], abstraction of services, and cross-cutting concerns are also challenges for microservices. In this paper, we present an extension of the microservice concept with object orientation. Based on object orientation, communication of services (dynamic complexity) can be managed explicitly, abstraction can be realized, and code sharing becomes possible. A first evaluation of our concept and a prototype realization indicates that the overall complexity of the software can be reduced significantly, while not harming the microservice development and deployment process.
+  slides: day1/short/Hilbrich1.pdf
+
+- authors:
+    - Marcel Hahn
+    - Albert Zündorf
+  title: Request Log API Pattern - An architecture pattern for a better logging and easy testing of microservices
+  link: ../papers/Microservices_2019_paper_10.pdf
+  abstract: The practical testing of a microservice is still a big challenge. This paper introduces a special microservice logging API as an architecture pattern that can be used to retrieve additional debug information for each request. This additional information can be used for unit testing and improved logging of microservices.
+  slides: day2/short/Hahn2.pdf
+
+- authors:
+    - Philip Wizenty
+  title: Viewpoint-specific Model-driven Microservice Development
+  link: ../papers/Microservices_2019_paper_11.pdf
+  abstract: Microservice Architecture is an upcoming architectural style for distributed and service-based software system, with a strong focus on loosely coupled and highly cohesive services. Model-driven Development is an approach to software engineering, which uses models to abstract from the system’s complexity for the better understanding of the problem and risk identification at the start of the development process. The usage of MDD for developing service-based software systems can be beneficial. In our work, we present a holistic Model-driven Development approach for DevOps-based microservice development.
+  slides: day1/foundations_of_design/Wizenty.pdf
+
+- authors:
+    - Leif Beaton
+  title: "Innovation, not Novelty: Three models for Microservices Architecture Design"
+  link: ../papers/Microservices_2019_paper_12.pdf
+  abstract: One of the most significant factors when moving to microservices is network design and implementation. Communication between services happens over the network, rather than in-memory, as is the case in traditional monolithic designs. Consequently, in this talk, Leif Beaton, Senior Technical Solutions Architect, will outline the three models that constitute NGINX’s reference architecture for microservices, each representing an increasing level of sophistication and power. 
+
+- authors:
+    - Marino Miculan
+    - Fabio Burco
+  title: Bigraphical models for Container-based Systems
+  link: ../papers/Microservices_2019_paper_13.pdf
+  abstract: In microservices architectures, containers play a central role, because they provide development, packaging and deployment mechanisms, such that developers can focus on the logic and dependencies of applications, while system administrators can focus on deployment and management issue. In this work, we propose a formal model for container-based systems, using the framework of Bigraphical Reactive Systems (BRSs). We first introduce local directed bigraphs, a variant of directed bigraphs which allows to deal with localized resources. Then, we define the signature for containers, and some examples. It turns out that the composition of containers (as in docker-compose or kubectl) corresponds precisely to the composition of the corresponding bigraphs inside a specific environment bigraph, which corresponds to the YAML file used to describe the composition of containers. The resulting bigraphic objects can be analysed and manipulated, using techniques from graph theory. In fact, properties about containers can be formalized as properties of the corresponding bigraphic representations
+  slides: day2/foundations_of_development/Miculan.pdf
+
+- authors:
+    - Marc Schreiber
+  title: "PREvant (Preview Servant): Composing Microservices into Reviewable and Testable Applications"
+  link: ../papers/Microservices_2019_paper_14.pdf
+  abstract: This paper introduces "PREvant" (preview servant), a software tool which provides a simple RESTful API for deploying and composing containerized microservices as reviewable applications. PREvant’s API serves as a connector between the continuous delivery pipelines of all involved microservices and the infrastructure that hosts the applications.
+  slides: day3/deployment_automation/Schreiber.pdf
+
+- authors:
+    - Balint Maschio
+  title: Updating the current Jolie microservices based DMS solution to include electronic invoicing
+  link: ../papers/Microservices_2019_paper_15.pdf
+  abstract: This paper looks at the evolution of the a DMS solution to include the new electronic invoice.
+  slides: day2/short/Maschio1.pdf
+
+- authors:
+    - Sebastian Copei
+    - Albert Zündorf
+  title: How to Synchronize Microservices
+  link: ../papers/Microservices_2019_paper_16.pdf
+  abstract: We start by splitting an University wide data model for student data into four example microservices. Then we address the problem of data synchronisation for these microservices, systematically. 
+
+- authors:
+    - Eberhard Wolff
+  title: "Migrating Monoliths to Microservices: A Survey of Approaches"
+  link: ../papers/Microservices_2019_paper_17.pdf
+  abstract: Usually microservices are not build on a greenfield but a monolith is migrated into a microservices architecture. This presentation shows goals and constraints of a migration strategy. A blueprint strategy is presented which is not limited to architecture but also covers infrastructure. Finally alternative approaches with their advantages and disadvantages are discussed.
+  slides: day1/design_experiences/Wolff1.pdf
+
+- authors:
+    - Eberhard Wolff
+  title: "Why Microservices Fail: An Experience Report"
+  link: ../papers/Microservices_2019_paper_18.pdf
+  abstract: Microservices are now widely used. However, not all projects successfully apply microservices principles. The presented overview of typical failure scenarios is important to use microservices more effectively, and to come up with novel architecture approaches. To support future projects, approaches to mitigate the problems are shown.
+
+- authors:
+    - Manuel Wickert
+    - Sven Liebehentze
+    - Albert Zündorf
+  title: "Experience Report: First Steps towards a Microservice Architecture for Virtual Power Plants in the Energy Sector"
+  link: ../papers/Microservices_2019_paper_19.pdf
+  abstract: Virtual Power Plants (VPPs) are a concept for providing energy services by aggregating decentralized energy resources (DERs) to provide stakeholders in the energy sector an abstraction over many small resources. The supporting software systems are operated as a part of the critical infrastructure and have to deal with a fast growing number of DERs. Therefore, modern architectures like Microservice architectures can be a good choice for dealing with such scalable systems where changing requirements from market and regulation is daily business. In this report, we outline our first experiences of changing an existing VPP software system to a Microservice architecture.
+
+- authors:
+    - Ananya Chhonker
+    - Rogério de Lemos
+  title: "Microservices Architectures and Technical Debt: A Self-adaptation View?"
+  link: ../papers/Microservices_2019_paper_20.pdf
+  abstract: Since there is no primary or secondary studies investigating MSA in the context of technical debt, the goal of this work is to assess the impact of MSA into technical debt, and probe whether self-adaption can be use as a means to facilitate maintainability and evolvability of MSA-based software systems.
+  slides: day1/foundations_of_design/Lemos.pdf
+
+- authors:
+    - Marcus Hilbrich
+    - Christine Jakobs
+    - Matthias Werner
+  title: Do Microservices Prevent High Qualitative Code?
+  link: ../papers/Microservices_2019_paper_21.pdf
+  abstract: During the last years many industry areas started to use microservices. They show advantages like scalability, independent service development, and complexity management. Nevertheless, from a researcher point of view we observe also drawbacks in using microservices. The aim of this paper is to present some of them to initiate a discussion whether they are caused by misconception or by misuse of the concept. We present three observations we want to emphasize and use the microservice definition from the paper of Lewis et al. Therefore we see microservices as an architecture "[...] to describe a particular way of designing software applications as suites of independently deployable services."
+  slides: day2/foundations_of_development/Hilbrich2.pdf
+
+- authors:
+    - Marcel Hahn
+    - Albert Zündorf
+  title: Flow Studio - An online flow-based programming environment for domain-specific microservice applications
+  link: ../papers/Microservices_2019_paper_22.pdf
+  abstract: The introduction of microservice architectures in companies often increases the complexity of the already heterogeneous IT landscape. There are even more independent applications and the relevant information is even more distributed. In addition, the IT departments are usually busy and a new requirement from the specialist departments cannot be implemented fast enough. This paper introduces a tool that enables domain experts to create complex data flow-based applications across multiple microservices without programming. 
+  slides: day2/applications1/Hahn1.pdf
+
+- authors:
+    - André Fachat
+  title: Microservices are not a silver bullet - challenges and benefits of the Microservices architectural style
+  link: ../papers/Microservices_2019_paper_23.pdf
+  abstract: Microservices are an approach for developing and deploying services that make up an application. Microservices, as the name implies, suggest breaking down an application into smaller “micro” parts, deploying and running them separately. The main benefit promised by this approach is faster time-to-market for new functionalities due to better technology selection and smaller team sizes. Experience shows, however, that Microservices are not the silver bullet in application development and projects can still fail or take much longer than expected. To evaluate the Microservices approach, we first look at the perceived promises of the Microservices architectural style. Then we point out some of the pitfalls and challenges associated with using Microservices. In the second part we will give our opinion and experience how to set up Microservices projects to avoid these pitfalls. We will revisit and discuss the (perceived) promises of Microservices in the light of what we learned. 
+
+- authors:
+    - Phu H. Nguyen
+    - Hui Song
+    - Franck Chauvel
+    - Erik Levin
+  title: Towards customizing multi-tenant Cloud applications using non-intrusive microservices
+  link: ../papers/Microservices_2019_paper_24.pdf
+  abstract: The customization requirements from different customers are often beyond what software vendors can offer in advance, at design-time. Enabling tenant-specific customizations in cloud-based multi-tenant Software-as-a-Service (SaaS) requires a novel approach. This paper proposes a Microservice-architecture-based non-intrusive Customization framework (MiSC-Cloud) to enable deep customization of SaaS.
+  slides: /day1/design_support/Nguyen.pdf
+
+- authors:
+    - Jonas Fritzsch
+    - Justus Bogner
+    - Stefan Wagner
+    - Alfred Zimmermann
+  title: "Microservices in the German Industry: Insights into Technologies, Characteristics, and Software Quality"
+  link: ../papers/Microservices_2019_paper_25.pdf
+  slides: day3/experiences1/Fritzsch.pdf
+  abstract: While Microservices initially were a topic mainly driven by practitioners, they currently are heavily researched in academia. In this paper, we contribute a qualitative study with the goal to provide insights into industry adoption and implementation of Microservices. During 17 in-depth interviews with software professionals from 10 companies we analyzed 14 service-based systems. The interviews focused on applied technologies, adherence to Microservice characteristics, and the perceived influence on software quality. We summarize the most important take-aways along with insights into common practices of companies across different domains and sizes. Researchers may build upon our findings and take them into account when designing industry-focused methods or techniques. This extended abstract includes some figures and excerpts from a forthcoming publication of the authors.
+
+- authors:
+    - Joachim Fröhlich
+    - Christoph Stückjürgen
+  title: Reliable In-Field Tests for Testable Microservices of Process Control Systems
+  link: ../papers/Microservices_2019_paper_26.pdf
+  abstract: Microservices for process control systems differ from microservices for information systems. Testing of microservices is particularly crucial in industrial contexts due to the interaction of process control software and physical processes. Data probes permanently built into microservices enable reliable results from tests (probe programs) about the behavior of single and multiple microservices, even under rough and uncomfortable operating conditions in close proximity to controlled physical processes.
+
+- authors:
+    - Dani Almog
+    - Hadas Chasidim
+  title: Transformation from OO to Microservices
+  link: ../papers/Microservices_2019_paper_27.pdf
+
+- authors:
+    - Alexander Stein
+    - Marcel Zillekens
+    - Marius Khan
+  title: A Microservice architecture for monitoring, processing and predicting climate data in animal husbandry
+  link: ../papers/Microservices_2019_paper_28.pdf
+  slides: day3/experiences2/Stein.pdf
+  abstract: In this work we present a microservice architecture that offers a reliable and scalable system to monitor and process incoming climate data from sensors of hog houses. Through data processing our system predicts trends about long term climate data. By using machine learning algorithms and based on the trends, the system recommends parameter values for climate computers installed in hog houses. %The data processing gives our system the capability to extract predictions about the long term climate trend to generate recommendation values for locally installed climate computers by using machine learning algorithms.
+
+- authors:
+    - Stefan Tilkov
+  title: "Microservices: A Taxonomy"
+  link: ../papers/Microservices_2019_paper_29.pdf
+  abstract: A microservices services architecture has become a standard way to approach the modular design of large scale systems. But while there are some traits that most practitioners can agree on, such as independent deployment, choice in implementation details, polyglot persistence, and benefits such as isolation, better parallelization, and improved scalability, there are still some vast differences between the different approaches taken in practice. In this talk, we will categorize different ways to approach the architectural style, and highlight difference, benefits, and downsides of various interpretations found in projects.
+  slides: day1/foundations_of_design/Tilkov.pdf
+  
+- authors:
+    - Nhiem Lu
+    - Gert Glatz
+    - Dennis Peuser
+  title: Moving mountains – practical approaches for moving monolithic applications to Microservices
+  link: ../papers/Microservices_2019_paper_30.pdf
+  abstract: The advent of Microservice Architecture led to a rethinking of legacy systems in many organizations. While Microservices provide numerous advantages, several challenges must be faced to migrate a monolith application, in terms of technical, processual and human aspects. Using industry examples, best practice approaches will be identified for a successful move from a monolith to Microservices. 
+
+- authors:
+    - Fabrizio Montesi
+    - Larisa Safina
+    - Stefano Pio Zingaro
+  title: Ephemeral Data Handling in Microservices
+  slides: day2/applications2/Safina.pdf
+  link: ../papers/Microservices_2019_paper_31.pdf
+  abstract: We present a framework in the Jolie programming language for ephemeral data handling in microservices; the building blocks of software for modern Large-scale systems that, due to regulations (GDPR) and other constraints (e.g., IoT and Edge Computing) need to handle data in an ephemeral way. Our framework includes a query language and an execution engine, that we formalised instantiating a sound version of the MongoDB query language. In our presentation we will illustrate the features of our framework through a non-trivial eHealth use case, which describes the handling of the data and the workflow of a diagnostic algorithm. 
+
+- authors:
+    - Blagovesta Pirelli
+  title: Co-Design of Business and IT Services
+  link:
+  abstract: In this talk, we will present our model-driven method for design of business and IT services. The talk is based on a work-in-progress project for business-IT alignment extension of SEAM, an existing service-design method. We will present how to specify the interface of a REST API based on the business services that use it. We will also present our results and tools and conclude with future directions for our work.
+  link: ../papers/Microservices_2019_paper_32.pdf
+  slides: day3/deployment_automation/Pirelli.pdf
