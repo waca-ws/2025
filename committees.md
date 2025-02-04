@@ -63,6 +63,8 @@ TBD
 <tbody>
 <tr><td>Marco Autili</td><td>Università dell'Aquila, IT</td></tr>
 <tr><td>Simon Bliudze</td><td>INRIA, FR</td></tr>
+<tr><td>Laura Bocchi</td><td>University of Kent, UK</td></tr>
+<tr><td>Hélène Coullon</td><td>Inria, FR</td></tr>
 <tr><td>Ivan Lanese</td><td>Università di Bologna, IT</td></tr>
 <tr><td>Philippe Merle</td><td>INRIA, FR</td></tr>
 <tr><td>Sergio Mover</td><td>École Polytechnique, FR</td></tr>
