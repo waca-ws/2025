@@ -70,6 +70,7 @@ TBD
 <tr><td>Sergio Mover</td><td>École Polytechnique, FR</td></tr>
 <tr><td>Stefan Nastic</td><td>TU Wien, AT</td></tr>
 <tr><td>Clèment Quinton</td><td>INRIA, FR</td></tr>
+<tr><td>Larisa Safina</td><td>INRIA, FR</td></tr>
 <tr><td>Gwen Salaün</td><td>University Grenoble Alpes, FR</td></tr>
 <tr><td>Jacopo Soldani</td><td>Univeristà di Pisa, IT</td></tr>
 <tr><td>Emilio Tuosto</td><td>GGSI, IT</td></tr>
