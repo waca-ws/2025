@@ -33,4 +33,4 @@ Content-wise, we expect contributions to describe how their approach can capture
 
 In the spirit of fostering a collaborative research community, **we invite all contributors to participate as program committee members to review submissions (1-2 papers per reviewer)**, which is as an opportunity to engage with innovative research and shape discussions on cloud architecture adaptation solutions through constructive peer review. 
 
-We kindly ask the interested contributors to directly [contact the workshop chairs]({{site.url}}/committees) and express their willingness to serve as PC members --- providing their names and email address --- for their consideration as members of the program committee.
+We kindly ask the interested contributors to submit their candidacy for consideration by [contacting the workshop chairs]({{site.url}}/committees).
