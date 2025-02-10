@@ -31,6 +31,6 @@ Content-wise, we expect contributions to describe how their approach can capture
 
 ## Peer-review Process
 
-In the spirit of fostering a collaborative research community, **we expect all contributors to participate as program committee members and engage in peer-reviewing other submissions (the expected load is 1--2 papers per reviewer)**. This mutual review approach ensures diverse perspectives in evaluating adaptation solutions while promoting constructive feedback and knowledge exchange among researchers working on cloud architecture adaptation. 
+In the spirit of fostering a collaborative research community, **we invite all contributors to participate as program committee members to review submissions (1-2 papers per reviewer)**, which is as an opportunity to engage with innovative research and shape discussions on cloud architecture adaptation solutions through constructive peer review. 
 
-We kindly ask the contributors to directly [contact the workshop chairs]({{site.url}}/committees) and express their willingness to serve as PC members --- providing their names and email address --- so they can be officially added to the program committee.
+We kindly ask the interested contributors to directly [contact the workshop chairs]({{site.url}}/committees) and express their willingness to serve as PC members --- providing their names and email address --- for their consideration as members of the program committee.
