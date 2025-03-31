@@ -73,6 +73,7 @@ TBD
 <tr><td>Larisa Safina</td><td>INRIA, FR</td></tr>
 <tr><td>Gwen Salaün</td><td>University Grenoble Alpes, FR</td></tr>
 <tr><td>Jacopo Soldani</td><td>Univeristà di Pisa, IT</td></tr>
+<tr><td>Eddy Truyen</td><td>KU Leuven, BE</td></tr>
 <tr><td>Emilio Tuosto</td><td>GGSI, IT</td></tr>
 <tr><td>Gianluigi Zavattaro</td><td>Università di Bologna, IT</td></tr>
 <tr><td>Brice Arléon Zemtsop Ndadji</td><td>INRIA, FR</td></tr>
