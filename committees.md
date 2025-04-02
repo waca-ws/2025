@@ -57,7 +57,6 @@ TBD
 {% endcomment %}
 
 ### Program Committee
-(to be finalised)
 
 <table>
 <tbody>
