@@ -2,14 +2,14 @@
   id: submission_deadline
   expired: false
   entries: 
+    - date: 2025-05-05
+      zone:
+        tzid: Etc/GMT-12
+        label: AoE (UTC-12)
     - date: 2025-04-28
       zone:
         tzid: Etc/GMT-12
         label: AoE (UTC-12)
-    # - date: 2020-03-17
-    #   zone:
-    #     tzid: Etc/GMT-12
-    #     label: AoE (UTC-12)
 - summary: Author Notification
   id: notification
   expired: false
