@@ -5,6 +5,17 @@ feature_image: "image0.jpg"
 image_source: "Sébastien Croës"
 ---
 
+---
+
+<div class="alert alert-warning text-center" role="alert">
+  <h4 class="alert-heading"><a href="https://www.discotec.org/2025/registration">Registration is Now Open</a></h4>
+  <br>
+  <p><strong>June 2025 is a busy period in Lille.<br>⚠️ 
+  We suggest booking your hotel URGENTLY! ⚠️</strong></p>
+</div>
+
+---
+
 The Workshop on Adaptable Cloud Architectures (WACA) focuses on comparing different methods and interpretations of Cloud architecture adaptation. WACA aims to explore adaptive strategies that go beyond traditional scaling, concentrating on architectural modifications in response to various events.
 
 The focus is on adaptation mechanisms that involve moving, adding, removing, and replacing software components, possibly modifying the provisioning of infrastructural resources in Cloud architectures. We are particularly interested in responses to changing user requirements, fluctuations in service load (desirable, e.g., increase of legit user requests, or undesirable, like DDoS attacks), infrastructure failures (e.g., machine outages, unreachable external services, or non-responsive internal components).
