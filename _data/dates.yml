@@ -1,6 +1,6 @@
 - summary: Submission deadline
   id: submission_deadline
-  expired: false
+  expired: true
   entries: 
     - date: 2025-05-05
       zone:
