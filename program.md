@@ -5,14 +5,13 @@ feature_image: "image2.jpg"
 image_source: "Andrey Sulitskiy"
 ---
 
-{% assign tentative = false %}
-{% assign ready = false %}
+{% assign tentative = true %}
+{% assign ready = true %}
 
 {% if ready %}
 
 {% if tentative %}
-Please be aware that this is a tentative version of the conference program.
-The finalised version will be published at the beginning of February.
+This is a tentative version of the workshop program, which will be finalised in the next few weeks.
 {% endif %}
 
 <style>
