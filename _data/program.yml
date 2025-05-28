@@ -44,10 +44,10 @@
       from: "11:00"
       to: "11:30"
       authors:
-        - name: TDB
+        - name: Zemtsop Ndadji Brice Arléon
           title: Authors
       description: |
-        A presentation on the Adaptable TeaStore Specification
+        A presentation on the Adaptable TeaStore Specification and Implementation.
 
     - title: "AdaptiFlow: An Extensible Framework for Event-Driven Autonomy in Cloud Microservices"
       link: 
