@@ -12,7 +12,7 @@
           title: Chairs
       description: The chairs welcome all attendees at WACA 2025 and provide information on the organisation of the event
 
-    - title: TBD
+    - title: "<strong>Keynote</strong> — Environmentally Sustainable Microservices: From Design to Operation"
       link: 
       slides: 
       from: "09:05"
@@ -21,7 +21,7 @@
         - name: Jacopo Soldani
           title: Keynote Speaker
       description: |
-        TBD
+        As digital infrastructure grows, addressing the carbon footprint and resilience of software systems is increasingly critical. This keynote presents a unified approach to sustainable microservices, combining recent advances in carbon-aware software and resilient Cloud-Edge deployments. We begin with a framework for interactive services that adapt to carbon intensity forecasts and workload variations, achieving up to 50% emission reductions while maintaining quality. Building on this, we introduce FREEDA—a research initiative focused on sustainable, failure-resilient microservices across the Cloud-IoT continuum. FREEDA employs a declarative method for generating deployment constraints, enabling DevOps teams to optimize resilience and sustainability from the outset. By aligning service-level carbon awareness with infrastructure-level strategies, this talk outlines a lifecycle approach to environmentally sustainable microservices.
     
     - title: Optimal configuration of API resources in cloud native computing
       link: 
