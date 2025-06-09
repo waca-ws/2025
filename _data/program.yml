@@ -50,7 +50,7 @@
         A presentation on the Adaptable TeaStore Specification and Implementation.
 
     - title: "AdaptiFlow: An Extensible Framework for Event-Driven Autonomy in Cloud Microservices"
-      link: 
+      link: papers/WACA2025_paper_8.pdf
       slides: 
       from: "11:30"
       to: "12:00"
@@ -61,7 +61,7 @@
         Modern cloud architectures demand self-adaptive capabilities to manage dynamic operational conditions, yet existing solutions often impose centralized control models ill-suited to microservices' decentralized nature. This paper presents AdaptiFlow, a framework that reimagines autonomic computing through abstraction layers focused on the Monitor and Execute phases of the MAPE-K loop. By decoupling metrics collection and action execution from adaptation logic, AdaptiFlow enables microservices to evolve into autonomous elements through standardized interfaces, preserving their architectural independence while enabling system-wide adaptability. The framework introduces: (1) Metrics Collectors for unified infrastructure/business metric gathering, (2) Adaptation Actions as declarative actuators for runtime adjustments, and (3) a lightweight Event-Driven and rule-based mechanism for adaptation logic specification. Validation through the enhanced Adaptable TeaStore benchmark demonstrates practical implementation of three adaptation scenarios targeting three levels of  autonomy—self-healing (database recovery), self-protection (DDoS mitigation), and self-optimization (traffic management)—with minimal code modification per service. Key innovations include a workflow for gradual service instrumentation and evidence that decentralized adaptation can emerge from localized decisions without global  coordination. The work bridges au tonomic computing theory with cloud-native practice, providing both a conceptual framework and concrete tools for building resilient distributed systems. Future work includes integration with for mal coordination models like JavaBIP to avoid conflicting adaptation scenarios and improved AI agents techniques using AWARE for proactive adaptations.
     
     - title: "Fancy some Chips for your TeaStore? Modeling the control of an adaptable discrete system"
-      link: 
+      link: papers/WACA2025_paper_5.pdf
       slides: 
       from: "12:00"
       to: "12:30"
@@ -76,7 +76,7 @@
       to: "14:00"
     
     - title: "Adaptable Teastore with Energy Consumption Awareness: A Case Study"
-      link: 
+      link: papers/WACA2025_paper_7.pdf
       slides: 
       from: "14:00"
       to: "14:30"
@@ -98,7 +98,7 @@
         We recently introduced an execution infrastructure for service-based software dubbed SEArch, after Service Execution Architecture. SEArch is a language-independent execution infrastructure capable of performing transparent dynamic reconfiguration of software artefacts. We argue here that our framework can be used to support adaptability. Our conviction is grounded on the underlying execution model of SEArch which hinges on a service broker that procures services at run-time based on formal contracts specified by components that "consume" services. Therefore, cloud applications can adapt to dynamic changes by modifying the contracts used to search for the services by-need.
 
     - title: "Adaptable TeaStore: A Choreographic Approach"
-      link: 
+      link: papers/WACA2025_paper_6.pdf
       slides: 
       from: "15:00"
       to: "15:30"
