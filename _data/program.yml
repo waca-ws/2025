@@ -24,7 +24,7 @@
         As digital infrastructure grows, addressing the carbon footprint and resilience of software systems is increasingly critical. This keynote presents a unified approach to sustainable microservices, combining recent advances in carbon-aware software and resilient Cloud-Edge deployments. We begin with a framework for interactive services that adapt to carbon intensity forecasts and workload variations, achieving up to 50% emission reductions while maintaining quality. Building on this, we introduce FREEDA—a research initiative focused on sustainable, failure-resilient microservices across the Cloud-IoT continuum. FREEDA employs a declarative method for generating deployment constraints, enabling DevOps teams to optimize resilience and sustainability from the outset. By aligning service-level carbon awareness with infrastructure-level strategies, this talk outlines a lifecycle approach to environmentally sustainable microservices.
     
     - title: Optimal configuration of API resources in cloud native computing
-      link: 
+      link: papers/WACA2025_paper_2.pdf
       slides: 
       from: "10:00"
       to: "10:30"
@@ -109,7 +109,7 @@
         Adaptable TeaStore has been recently proposed as a reference model for adaptable microservice architecture. It includes different configurations, as well as scenarios requiring to transition between them. We describe an implementation of the Adaptable TeaStore based on AIOCJ, a choreographic language allowing one to program multiparty systems which can adapt at runtime to different conditions. Following the choreographic tradition, AIOCJ ensures by construction correctness of communications (e.g., no deadlocks) before, during, and after adaptation. Adaptation is dynamic, and the adaptation scenarios need to be fully specified only at runtime. Using AIOCJ to model the Adaptable TeaStore, we showcase the strengths of the approach and its current limitations, providing suggestions for future directions for refining the paradigm (and the AIOCJ language in particular), to better align it with real-world Cloud architectures.
 
     - title: Decoupling adaptive control in TeaStore
-      link: 
+      link: papers/WACA2025_paper_4.pdf
       slides: 
       from: "15:30"
       to: "16:00"
